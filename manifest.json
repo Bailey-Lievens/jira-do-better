@@ -1,0 +1,20 @@
+{
+  "name": "Jira do better",
+  "description": "Jira can do better but they won't",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "./views/index.html",
+    "default_icon": "./assets/icon/jira-do-better.png"
+  },
+  "content_scripts": [
+    {
+      "css": [
+        "./css/edit-issue.css"
+      ],
+      "matches": [
+        "https://jira.hosted-tools.com/browse/*"
+      ]
+    }
+  ]
+}

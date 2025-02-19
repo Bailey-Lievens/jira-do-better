@@ -1,0 +1,63 @@
+#edit-comment {
+    margin-top: unset !important;
+    margin-left: unset !important;
+
+    height: 80vh !important;
+    width: 80vw !important;
+
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#edit-comment .jira-dialog-core-content {
+    height: 100%;
+}
+
+#edit-comment .jira-dialog-core-content #comment-edit {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr min-content;
+}
+
+#edit-comment .jira-dialog-core-content #comment-edit .form-body {
+    height: unset !important;
+    max-height: unset !important;
+}
+
+/* If someone smarter can fix this, pls tell me. This feels like a shitty work-around */
+@media (height < 600px) {
+    #edit-comment .jira-dialog-core-content #comment-edit {
+        height: 85%;
+    }
+}
+
+#edit-comment .form-body fieldset {
+    height: 75% !important;
+}
+
+#edit-comment .wiki-edit-content,
+#edit-comment .wiki-edit,
+#edit-comment .jira-wikifield,
+#edit-comment .comment-input,
+#edit-comment .jira-editor-container
+{
+    height: 100% !important;
+}
+
+#edit-comment .rte-container
+{
+    height: calc(100% - 40px) !important;
+}
+
+#edit-comment .wiki-button-bar {
+    height: 30px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+#edit-comment .tox-statusbar {
+    display: none;
+}
