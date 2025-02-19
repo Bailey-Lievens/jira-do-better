@@ -14,7 +14,7 @@ With the extension:
 ## How to install 🛠️
 Seeing as Google wants me to create a developer account and pay an entrance fee, this is more complicated than it should be.
 
-1. Download this repo and unpack it somewhere you want to store it
+1. Download the latest release of this repo and unpack it somewhere you want to store it
 2. Go to [chrome://extensions](chrome://extensions)
 3. Enable `Developer mode`
 4. Click on `Load unpacked`
