@@ -27,7 +27,7 @@
     max-height: unset !important;
 }
 
-/* If someone smarter can fix this, pls tell me. This feels like a shitty work-around */
+/* If someone smarter can fix this, pls tell me. This feels like a shitty work-around. */
 @media (height < 600px) {
     #edit-comment .jira-dialog-core-content #comment-edit {
         height: 85%;
