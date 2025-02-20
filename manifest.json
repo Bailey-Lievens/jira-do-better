@@ -10,7 +10,7 @@
   "content_scripts": [
     {
       "css": [
-        "./css/edit-issue.css"
+        "./css/main.css"
       ],
       "matches": [
         "https://jira.hosted-tools.com/browse/*"
